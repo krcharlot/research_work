@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\system_images">
+      <UniqueIdentifier>{93178587-2374-44bf-9ba7-9a92954ca9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Managers">
+      <UniqueIdentifier>{e1247d38-3b17-4bfd-a425-ef8a56001b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Managers">
+      <UniqueIdentifier>{1826e544-a63b-400f-8d1d-ad2b3588399c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Data">
+      <UniqueIdentifier>{6fe0ca63-edfc-462f-a879-f52b879b9d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Data">
+      <UniqueIdentifier>{fa0b3a97-2101-4d3f-b4d6-81c365508d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DataEditor">
+      <UniqueIdentifier>{9d99f8bf-1ba8-48f4-9049-6bfd64011674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DataEditor">
+      <UniqueIdentifier>{b05c81c3-eb0e-4b3e-a3db-63260354592d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DataEditor\Functions">
+      <UniqueIdentifier>{abc38758-7892-4c31-bb66-86cccb589c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DataEditor\Functions">
+      <UniqueIdentifier>{c2901670-cd0e-4c0d-aec4-0eabeaebc2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DataEditor\Attributes">
+      <UniqueIdentifier>{ac4dc41f-2c33-44a4-aacb-3a16b21c4097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DataEditor\Attributes">
+      <UniqueIdentifier>{3893eeed-d0fd-43f4-9249-24aaab8ae5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Managers\Attributes">
+      <UniqueIdentifier>{48e06f9f-7059-46fe-8531-bd0cd3b00a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Managers\Attributes">
+      <UniqueIdentifier>{cfe33350-f241-4d35-943e-c6a2a706b958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectColorManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSystem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MMRCNNManager.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetDataManager.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ReinforceManager.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AugmentManager.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotateManager.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers.cpp">
+      <Filter>ソース ファイル\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageData.cpp">
+      <Filter>ソース ファイル\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EditData.cpp">
+      <Filter>ソース ファイル\DataEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ReinforceData.cpp">
+      <Filter>ソース ファイル\DataEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="AugmentData.cpp">
+      <Filter>ソース ファイル\DataEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotateData.cpp">
+      <Filter>ソース ファイル\DataEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditData_IP.cpp">
+      <Filter>ソース ファイル\DataEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePasting.cpp">
+      <Filter>ソース ファイル\DataEditor\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsReinforcement.cpp">
+      <Filter>ソース ファイル\DataEditor\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardInput.cpp">
+      <Filter>ソース ファイル\DataEditor\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVInput.cpp">
+      <Filter>ソース ファイル\Managers\Attributes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="picojson.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSystem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectColorManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MMRCNNManager.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReinforceManager.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AugmentManager.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnotateManager.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonData.h">
+      <Filter>ヘッダー ファイル\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EditData.h">
+      <Filter>ヘッダー ファイル\DataEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ReinforceData.h">
+      <Filter>ヘッダー ファイル\DataEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="AugmentData.h">
+      <Filter>ヘッダー ファイル\DataEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnotateData.h">
+      <Filter>ヘッダー ファイル\DataEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditData_IP.h">
+      <Filter>ヘッダー ファイル\DataEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePasting.h">
+      <Filter>ヘッダー ファイル\DataEditor\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsReinforcement.h">
+      <Filter>ヘッダー ファイル\DataEditor\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetDataManager.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInput.h">
+      <Filter>ヘッダー ファイル\DataEditor\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybord.h">
+      <Filter>ヘッダー ファイル\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVInput.h">
+      <Filter>ヘッダー ファイル\Managers\Attributes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
