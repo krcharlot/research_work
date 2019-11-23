@@ -1,0 +1,16 @@
+{
+  "s_001.png3308": {
+    "filename": "s_001.png",
+    "size": 3308,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "polygon",
+          "all_points_x": [ 72, 331, 330, 72 ],
+          "all_points_y": [ 178, 178, 431, 431 ]
+        },
+        "region_attributes": { "shape": "square" }
+      }
+    ],
+    "file_attributes": { }
+  },"s_002.png2864":{"filename":"s_002.png","size":2864,"regions":[{"shape_attributes":{"name":"polygon","all_points_x":[242,501,500,242],"all_points_y":[63,63,316,316]},"region_attributes":{"shape":"square"}}],"file_attributes":{}},"s_003.png2864":{"filename":"s_003.png","size":2864,"regions":[{"shape_attributes":{"name":"polygon","all_points_x":[169,428,427,169],"all_points_y":[300,300,553,553]},"region_attributes":{"shape":"square"}}],"file_attributes":{}}}
